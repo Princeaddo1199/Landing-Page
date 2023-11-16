@@ -21,6 +21,9 @@ body {
   color: #f9faf8;
   margin-left: 50px;
 }
+.dot {
+  color: #3882f6;
+}
 
 .header-right ul {
   display: flex;
@@ -168,5 +171,13 @@ button{
  .button {
   border: 3px solid #e5e7eb;
   border-radius: 5px;
+}
+
+.footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f9f1f8;
 }
  
