@@ -57,8 +57,12 @@ body {
 button{
     background-color: #3882f6;
     color:#f9f1f8 ;
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
     width: 100px;
     height: 30px;
+    border: 5px solid #3882f6;
     border-radius: 5px;
 }
 
@@ -131,3 +135,38 @@ button{
  .author {
   margin-left: 1100px;
  }
+
+
+ .call-to-action{
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .items-box {
+  background-color: #3882f6;
+  width: 55%;
+  height: 50%;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* gap: 600px; */
+ }
+ .text-3{
+  font-size: 24px;
+  color: #e5e7eb;
+  
+ }
+ .text-4{
+  color: #d1d2d3;
+  font-size: medium;
+  font-weight: 300;
+ }
+
+ .button {
+  border: 3px solid #e5e7eb;
+  border-radius: 5px;
+}
+ 
